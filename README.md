@@ -55,6 +55,7 @@ Git / GitHub
 Vercel
   ↓
 Mobile Browser QA
+```
 
 ## First 10-Minute Goal
 
