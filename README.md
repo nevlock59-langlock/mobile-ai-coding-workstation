@@ -153,3 +153,18 @@ Vercel 자동 배포
 ```
 
 모바일에서 개발할 때는 배포 후 실제 스마트폰 브라우저에서 바로 확인할 수 있다는 점이 큰 장점입니다.
+
+## Useful Aliases
+
+자주 쓰는 명령어는 alias로 줄여두면 편합니다.
+
+```bash
+echo 'alias gemw="cd ~/workbox && gemini"' >> ~/.bashrc
+source ~/.bashrc
+
+이후 어디서든 아래처럼 입력하면 됩니다.
+
+```bash
+gemw
+
+그러면 `~/workbox` 폴더로 이동한 뒤 Gemini CLI가 실행됩니다.
