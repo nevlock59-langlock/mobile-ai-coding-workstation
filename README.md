@@ -105,3 +105,22 @@ gemini
 ```
 
 이후 Gemini CLI 안에서 프로젝트 생성/수정 작업을 진행할 수 있습니다.
+
+## Run a Vite Project on Android
+
+Vite 기반 프로젝트라면 프로젝트 폴더 안에서 아래 명령어를 실행합니다.
+
+```bash
+npm install
+npm run dev -- --host 0.0.0.0
+```
+
+실행 후 Termux에 표시되는 주소를 모바일 브라우저에서 엽니다.
+
+```text
+Local:   http://localhost:5173/
+Network: http://xxx.xxx.xxx.xxx:5173/
+```
+
+처음에는 배포보다 로컬 실행을 먼저 확인하는 것이 좋습니다.  
+로컬에서 화면이 뜨면 그다음 GitHub push와 Vercel 배포로 넘어갑니다.
