@@ -207,3 +207,15 @@ Vite 실행 시 --host 옵션을 붙입니다.
 ```bash
 npm run dev -- --host 0.0.0.0
 ```
+
+## Conclusion
+
+이 방식은 완전한 모바일 IDE라기보다는,
+AI agent + Git + cloud deploy를 스마트폰에서 연결해 돌리는 가벼운 모바일 바이브코딩 루프에 가깝습니다.
+
+모바일은 완벽한 개발환경은 아니지만,
+작은 수정 → 즉시 확인 → 빠른 배포가 중요한 작업에서는 생각보다 충분히 실용적이었습니다.
+
+## Keywords
+
+Android, Termux, Gemini CLI, GitHub, Vercel, Vite, React, Mobile Development, AI Coding Agent, Mobile Coding, Vibe Coding
