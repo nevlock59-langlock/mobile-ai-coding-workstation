@@ -188,3 +188,22 @@ gemw
 - 복잡한 런타임 디버깅
 - 긴 diff 검토
 - 원인 위치가 불명확한 오류 추적
+
+## Common Issues
+
+### Gemini CLI가 엉뚱한 폴더를 보는 경우
+
+수정하려는 프로젝트 폴더 안에서 Gemini CLI를 실행합니다.
+
+```bash
+cd ~/workbox/YOUR_REPOSITORY
+gemini
+```
+
+### Vite 서버는 켜졌는데 브라우저에서 안 열리는 경우
+
+Vite 실행 시 --host 옵션을 붙입니다.
+
+```bash
+npm run dev -- --host 0.0.0.0
+```
