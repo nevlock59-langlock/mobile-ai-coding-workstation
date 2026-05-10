@@ -231,3 +231,29 @@ Android, Termux, Gemini CLI, GitHub, Vercel, Vite, React, Mobile Development, AI
 ## Keywords
 
 Android, Termux, Gemini CLI, GitHub, Vercel, Vite, React, Mobile Development, AI Coding Agent, Mobile Coding, Vibe Coding
+
+## Prerequisites
+
+- GitHub account
+- Vercel account
+- Gemini CLI authentication
+- Android smartphone
+- Internet connection
+
+## Troubleshooting
+
+### git push authentication failed
+
+GitHub may require a Personal Access Token instead of a password.
+
+### npm install failed
+
+Try updating Termux packages first.
+
+```bash
+pkg update && pkg upgrade -y
+```
+
+### Gemini CLI opened the wrong folder
+
+Run Gemini CLI inside the target project folder.
