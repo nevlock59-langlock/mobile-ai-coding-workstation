@@ -135,3 +135,21 @@ git add .
 git commit -m "update"
 git push
 ```
+
+## Vercel Deploy Workflow
+
+Vercel에서 GitHub repository를 연결하면, 이후에는 GitHub에 push할 때마다 자동으로 배포됩니다.
+
+```text
+Code 수정
+  ↓
+git add / commit / push
+  ↓
+GitHub 반영
+  ↓
+Vercel 자동 배포
+  ↓
+모바일 브라우저에서 확인
+```
+
+모바일에서 개발할 때는 배포 후 실제 스마트폰 브라우저에서 바로 확인할 수 있다는 점이 큰 장점입니다.
