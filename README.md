@@ -163,11 +163,13 @@ Vercel 자동 배포
 ```bash
 echo 'alias gemw="cd ~/workbox && gemini"' >> ~/.bashrc
 source ~/.bashrc
+```
 
 이후 어디서든 아래처럼 입력하면 됩니다.
 
 ```bash
 gemw
+```
 
 그러면 `~/workbox` 폴더로 이동한 뒤 Gemini CLI가 실행됩니다.
 
