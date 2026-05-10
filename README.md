@@ -124,3 +124,14 @@ Network: http://xxx.xxx.xxx.xxx:5173/
 
 처음에는 배포보다 로컬 실행을 먼저 확인하는 것이 좋습니다.  
 로컬에서 화면이 뜨면 그다음 GitHub push와 Vercel 배포로 넘어갑니다.
+
+## GitHub Push Workflow
+
+수정한 내용을 GitHub에 올리는 기본 흐름입니다.
+
+```bash
+git status
+git add .
+git commit -m "update"
+git push
+```
