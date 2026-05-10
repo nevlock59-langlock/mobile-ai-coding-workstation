@@ -70,3 +70,38 @@ Mobile Browser QA
 
 처음 목표는 “멋진 앱 만들기”가 아니라,  
 **수정 → 확인 → 저장 → 배포** 루프를 한 번 끝까지 돌려보는 것입니다.
+
+## Quick Setup
+
+### 1. Install Termux
+
+- Install Termux from F-Droid
+- Launch Termux once
+
+### 2. Install basic packages
+
+```bash
+pkg update && pkg upgrade -y
+pkg install git nodejs -y
+```
+
+### 3. Install Gemini CLI
+
+```bash
+npm install -g @google/gemini-cli
+```
+
+### 4. Create workspace
+
+```bash
+mkdir -p ~/workbox
+cd ~/workbox
+```
+
+### 5. Start Gemini CLI
+
+```bash
+gemini
+```
+
+이후 Gemini CLI 안에서 프로젝트 생성/수정 작업을 진행할 수 있습니다.
