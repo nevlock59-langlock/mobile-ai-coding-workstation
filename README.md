@@ -83,7 +83,6 @@ Mobile Browser QA
 
 ### 2. Install basic packages
 
-```
 ```bash
 pkg update && pkg upgrade -y
 pkg install git nodejs -y
