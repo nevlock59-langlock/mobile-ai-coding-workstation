@@ -214,48 +214,18 @@ Vite 실행 시 --host 옵션을 붙입니다.
 npm run dev -- --host 0.0.0.0
 ```
 
-## Keywords
-
-Android, Termux, Gemini CLI, GitHub, Vercel, Vite, React, Mobile Development, AI Coding Agent, Mobile Coding, Vibe Coding
-
 ## Conclusion
 
 이 방식은 완전한 모바일 IDE를 만드는 방법은 아닙니다.
 
 대신 AI agent, Git, cloud deploy, Mobile QA를 스마트폰에서 가볍게 연결하는 방법에 가깝습니다.
 
-모바일은 완벽한 개발환경은 아니지만,
+모바일은 완벽한 개발환경은 아니지만,  
 작게 수정하고 바로 확인해야 하는 작업에서는 충분히 실용적이었습니다.
 
-**핵심은 “모바일로 모든 개발을 한다”가 아니라,
-코드 수정부터 배포까지의 작업을 어디서든 할 수 있게 되었다는 점입니다.**
+**핵심은 “폰으로 모든 개발을 한다”가 아니라,  
+코드 수정-확인 사이클을 어디서든 굴릴 수 있다는 점입니다.**
 
 ## Keywords
 
 Android, Termux, Gemini CLI, GitHub, Vercel, Vite, React, Mobile Development, AI Coding Agent, Mobile Coding, Vibe Coding
-
-## Prerequisites
-
-- GitHub account
-- Vercel account
-- Gemini CLI authentication
-- Android smartphone
-- Internet connection
-
-## Troubleshooting
-
-### git push authentication failed
-
-GitHub may require a Personal Access Token instead of a password.
-
-### npm install failed
-
-Try updating Termux packages first.
-
-```bash
-pkg update && pkg upgrade -y
-```
-
-### Gemini CLI opened the wrong folder
-
-Run Gemini CLI inside the target project folder.
