@@ -1,5 +1,7 @@
 # 안드로이드 폰으로 만드는 AI 코딩 워크스테이션
 
+
+[English Version](README.en.md)
 > Android Phone as an AI Coding Workstation  
 > Termux + Gemini CLI + GitHub + Vercel 모바일 개발환경 온보딩 가이드
 
